@@ -10,6 +10,7 @@ function Users() {
         <div className="2xl:flex-1 w-full">
           <UserFilter />
           <UsersList />
+          <UserFilter />
         </div>
         <RightSidebar />
       </div>
