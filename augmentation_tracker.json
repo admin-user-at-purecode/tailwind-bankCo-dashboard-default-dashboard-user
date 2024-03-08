@@ -155,7 +155,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
-        "..."
+        "swapped the position of the UserFilter with UsersList",
+        
     ]
 }
