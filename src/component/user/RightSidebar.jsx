@@ -7,7 +7,7 @@ import hr from "../../assets/images/avatar/hr.png";
 function RightSidebar() {
   return (
     <aside className="2xl:w-[382px] w-full bg-white dark:bg-darkblack-600 rounded-lg px-12 pb-7">
-      <header className="flex flex-col items-center text-center -mt-8 pb-7">
+      <header className="flex flex-col items-center text-center -mt-8 pb-7 header">
         <img src={user} className="rounded-lg" alt="" />
         <h3 className="text-xl font-bold text-bgray-700 dark:text-white mt-4">
           Abdur Rohman
@@ -102,7 +102,7 @@ function RightSidebar() {
           </button>
         </div>
       </header>
-      <ul className="py-7 border-t border-b border-gray-200 dark:border-darkblack-400 space-y-6">
+      <ul className="py-7 border-t border-b border-gray-200 dark:border-darkblack-400 space-y-6 unorderdlist">
         <li className="flex justify-between">
           <span className="font-medium text-gray-500 text-sm dark:text-white">
             Experience
@@ -136,7 +136,7 @@ function RightSidebar() {
           </span>
         </li>
       </ul>
-      <div className="py-6 border-b border-bgray-200 dark:border-darkblack-400">
+      <div className="py-6 border-b border-bgray-200 dark:border-darkblack-400 files">
         <h4 className="font-medium text-gray-500 text-sm dark:text-white mb-3">
           Files
         </h4>
@@ -311,7 +311,7 @@ function RightSidebar() {
           </li>
         </ul>
       </div>
-      <div className="pt-6">
+      <div className="pt-6 agent">
         <h4 className="font-medium text-gray-500 text-sm dark:text-white mb-4">
           Hiring Agent
         </h4>
@@ -336,7 +336,7 @@ function RightSidebar() {
         <button
           aria-label="none"
           data-target="#multi-step-modal"
-          className="bg-success-300 hover:bg-success-400 transition duration-300 ease-in-out modal-open py-3 px-7 text-white rounded-lg font-medium"
+          className="bg-success-300 hover:bg-success-400 transition duration-300 ease-in-out modal-open py-3 px-7 text-white rounded-lg font-medium button"
         >
           Add a contact
         </button>

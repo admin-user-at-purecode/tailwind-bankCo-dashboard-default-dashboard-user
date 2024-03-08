@@ -153,7 +153,7 @@ function UserFilter() {
           </svg>
         </button>
       </div>
-      <div className="pl-10 md:block hidden">
+      <div className="pl-10 md:block hidden SearchButton">
         <button
           aria-label="none"
           className="py-3 px-10 bg-bgray-600 dark:bg-darkblack-500 rounded-lg text-white font-medium text-sm"
