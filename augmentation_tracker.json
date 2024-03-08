@@ -92,8 +92,8 @@
             "children_orientation_description": "flexed"
         },
         "UserFilter": {
-            "count": 1,
-            "location": "Below the header",
+            "count": 3,
+            "location": "one is below the header and remaining 2 is below the UsersList ",
             "children": {
                 "SearchFilter": {
                     "count": 1,
@@ -155,7 +155,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "increased the count of UserFilter by 2",
         "..."
     ]
 }
