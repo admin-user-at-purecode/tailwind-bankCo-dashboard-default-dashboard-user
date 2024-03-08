@@ -155,7 +155,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
-        "..."
+        "Changed the position of the RightSidebar component to be displayed below the Userlist."
     ]
+    
 }

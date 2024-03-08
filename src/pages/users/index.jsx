@@ -8,10 +8,11 @@ function Users() {
       {/* write your code here */}
       <div className="flex 2xl:flex-row 2xl:space-x-11 flex-col space-y-20">
         <div className="2xl:flex-1 w-full">
-          <UserFilter />
+          <UserFilter /> 
           <UsersList />
+          <RightSidebar />
         </div>
-        <RightSidebar />
+        
       </div>
     </main>
   );
