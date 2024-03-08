@@ -126,7 +126,7 @@
         "RightSidebar": {
             "count": 1,
             "location": "to the right of the UsersList component",
-            "description": "collapsible, to the left, on toggled",
+            
             "children": {
                 "Header": {
                     "count": 1,
