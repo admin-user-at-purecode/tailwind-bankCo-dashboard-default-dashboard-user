@@ -126,7 +126,6 @@
         "RightSidebar": {
             "count": 1,
             "location": "below the  UserList component",
-            "description": "collapsible, to the left, on toggled",
             "children": {
                 "Header": {
                     "count": 1,
@@ -157,7 +156,7 @@
     "screen_and_layout_augmentations": [
          "Resize the width of UserFilter by setting the column span to 6. The main grid contains 6 columns",
          "Resize the width of UsersList by setting the column span to 6. The main grid contains 6 columns",
-         "Resize the width of RightSidebar by setting the column span to 6. The main grid contains 6 columns",
+         "Resize the width of RightSidebar by setting the column span to 3. The main grid contains 6 columns",
         "..."
     ]
 }
