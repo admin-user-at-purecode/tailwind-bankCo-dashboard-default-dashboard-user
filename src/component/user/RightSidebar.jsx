@@ -6,7 +6,7 @@ import hr from "../../assets/images/avatar/hr.png";
 
 function RightSidebar() {
   return (
-    <aside className="2xl:w-[382px] w-full bg-white dark:bg-darkblack-600 rounded-lg px-12 pb-7">
+    <aside className="w-full bg-white dark:bg-darkblack-600 rounded-lg px-12 pb-7">
       <header className="flex flex-col items-center text-center -mt-8 pb-7 header">
         <img src={user} className="rounded-lg" alt="" />
         <h3 className="text-xl font-bold text-bgray-700 dark:text-white mt-4">

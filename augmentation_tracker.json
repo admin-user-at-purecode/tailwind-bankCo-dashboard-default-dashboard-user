@@ -124,9 +124,8 @@
             }
         },
         "RightSidebar": {
-            "count": 1,
-            "location": "to the right of the UsersList component",
-            "description": "collapsible, to the left, on toggled",
+            "count": 3,
+            "location": "Below the UserFilter component",
             "children": {
                 "Header": {
                     "count": 1,
@@ -155,7 +154,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "increased the count of RightSidebar by 2",
         "..."
     ]
 }
