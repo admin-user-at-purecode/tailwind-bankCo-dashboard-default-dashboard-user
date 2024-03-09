@@ -52,10 +52,6 @@
                     "location": "to the right of the ModeToggler button",
                     "description": "on clicked opens popup",
                     "children": {
-                        "NotificationPopup": {
-                            "count": 1,
-                            "description": "opens on first toggle button clicked"
-                        },
                         "MassagePopup": {
                             "count": 1,
                             "description": "opens on second toggle button clicked"
@@ -154,7 +150,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed Notifications Popup functionality",
         "..."
     ]
 }
