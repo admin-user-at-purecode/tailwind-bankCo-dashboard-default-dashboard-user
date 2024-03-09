@@ -48,7 +48,7 @@
                     "functionality": "toggles the global theme"
                 },
                 "ToggleBtn": {
-                    "count": 3,
+                    "count": 2,
                     "location": "to the right of the ModeToggler button",
                     "description": "on clicked opens popup",
                     "children": {
@@ -59,10 +59,6 @@
                         "MassagePopup": {
                             "count": 1,
                             "description": "opens on second toggle button clicked"
-                        },
-                        "StorePopUp": {
-                            "count": 1,
-                            "description": "opens on third toggle button clicked"
                         }
                     }
                 },
@@ -154,7 +150,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed Store popup functionality",
         "..."
     ]
 }
