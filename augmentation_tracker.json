@@ -113,8 +113,8 @@
             }
         },
         "UsersList": {
-            "count": 1,
-            "location": "Below the UserFilter component",
+            "count": 5,
+            "location": "one is below the header and remaining is below the userFilter component",
             "children": {
                 "UserData": {
                     "count": 1,
@@ -154,7 +154,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Increased the count of UsersList by 4",
         "..."
     ]
 }
