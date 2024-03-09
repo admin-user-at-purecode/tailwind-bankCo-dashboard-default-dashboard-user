@@ -122,39 +122,13 @@
                     "description": "the component is mapped"
                 }  
             }
-        },
-        "RightSidebar": {
-            "count": 1,
-            "location": "to the right of the UsersList component",
-            "children": {
-                "Header": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component",
-                    "description": "info about user"
-                },
-                "UnorderedList": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the header",
-                    "description": "user employment details"
-                },
-                "Files": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the UnorderedList",
-                    "description": "pdf downloadable"
-                },
-                "button": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the Files",
-                    "description": "button with green background"
-                }
-            }
         }
     },
     "sizing_updates": [
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed RightSidebar component",
         "..."
     ]
 }
