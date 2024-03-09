@@ -154,7 +154,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed sidebar toggling functionality",
         "..."
     ]
 }
