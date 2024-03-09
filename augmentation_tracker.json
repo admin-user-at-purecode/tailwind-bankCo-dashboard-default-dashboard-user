@@ -70,10 +70,6 @@
                     "count": 1,
                     "location": "to the right of the ToggleBtn",
                     "description": "opens the popup containing user basic information"
-                },
-                "ProfilePopup": {
-                    "count": 1,
-                    "description": "opens a dropdown of some navs"
                 }
             },
             "children_orientation_description": "flexed"
@@ -154,7 +150,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed the ProfilePopup functionality",
         "..."
     ]
 }
