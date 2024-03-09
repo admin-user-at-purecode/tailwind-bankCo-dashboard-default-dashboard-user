@@ -92,7 +92,7 @@
             "children_orientation_description": "flexed"
         },
         "UserFilter": {
-            "count": 1,
+            "count": 2,
             "location": "Below the header",
             "children": {
                 "SearchFilter": {
@@ -113,7 +113,7 @@
             }
         },
         "UsersList": {
-            "count": 1,
+            "count": 2,
             "location": "Below the UserFilter component",
             "children": {
                 "UserData": {
@@ -124,7 +124,7 @@
             }
         },
         "RightSidebar": {
-            "count": 1,
+            "count": 2,
             "location": "to the right of the UsersList component",
             "children": {
                 "Header": {
@@ -154,7 +154,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "increased the count of UsersList,UserFilter and RightSidebar all together by 1 ",
         "..."
     ]
 }
