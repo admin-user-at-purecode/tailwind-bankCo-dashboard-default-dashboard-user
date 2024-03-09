@@ -91,38 +91,6 @@
             },
             "children_orientation_description": "flexed"
         },
-        "UserFilter": {
-            "count": 1,
-            "location": "Below the header",
-            "children": {
-                "SearchFilter": {
-                    "count": 1,
-                    "location": "inside the UserFilter component",
-                    "description": "user can search his information"
-                },
-                "CountryFilter": {
-                    "count": 1,
-                    "location": "inside the SearchFilter component and to the right of the SearchFilter",
-                    "description": "user employment details"
-                },
-                "SearchButton": {
-                    "count": 1,
-                    "location": "inside the UserFilter component and to the right of the CountryFilter",
-                    "description": "pdf downloadable"
-                }
-            }
-        },
-        "UsersList": {
-            "count": 1,
-            "location": "Below the UserFilter component",
-            "children": {
-                "UserData": {
-                    "count": 1,
-                    "location": "inside the UsersList component",
-                    "description": "the component is mapped"
-                }  
-            }
-        },
         "RightSidebar": {
             "count": 1,
             "location": "to the right of the UsersList component",
@@ -154,7 +122,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed UsersList and UserFilter component",
         "..."
     ]
 }
