@@ -112,17 +112,6 @@
                 }
             }
         },
-        "UsersList": {
-            "count": 1,
-            "location": "Below the UserFilter component",
-            "children": {
-                "UserData": {
-                    "count": 1,
-                    "location": "inside the UsersList component",
-                    "description": "the component is mapped"
-                }  
-            }
-        },
         "RightSidebar": {
             "count": 1,
             "location": "to the right of the UsersList component",
@@ -154,7 +143,7 @@
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed UsersList component",
         "..."
     ]
 }
