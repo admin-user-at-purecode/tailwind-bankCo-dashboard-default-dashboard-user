@@ -91,27 +91,6 @@
             },
             "children_orientation_description": "flexed"
         },
-        "UserFilter": {
-            "count": 1,
-            "location": "Below the header",
-            "children": {
-                "SearchFilter": {
-                    "count": 1,
-                    "location": "inside the UserFilter component",
-                    "description": "user can search his information"
-                },
-                "CountryFilter": {
-                    "count": 1,
-                    "location": "inside the SearchFilter component and to the right of the SearchFilter",
-                    "description": "user employment details"
-                },
-                "SearchButton": {
-                    "count": 1,
-                    "location": "inside the UserFilter component and to the right of the CountryFilter",
-                    "description": "pdf downloadable"
-                }
-            }
-        },
         "UsersList": {
             "count": 1,
             "location": "Below the UserFilter component",
@@ -122,39 +101,13 @@
                     "description": "the component is mapped"
                 }  
             }
-        },
-        "RightSidebar": {
-            "count": 1,
-            "location": "to the right of the UsersList component",
-            "children": {
-                "Header": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component",
-                    "description": "info about user"
-                },
-                "UnorderedList": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the header",
-                    "description": "user employment details"
-                },
-                "Files": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the UnorderedList",
-                    "description": "pdf downloadable"
-                },
-                "button": {
-                    "count": 1,
-                    "location": "inside the RightSidebar component and below the Files",
-                    "description": "button with green background"
-                }
-            }
         }
     },
     "sizing_updates": [
         ".."
     ],
     "screen_and_layout_augmentations": [
-        "..",
+        "Removed UserFilter and RightSidebar component",
         "..."
     ]
 }
